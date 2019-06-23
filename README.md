@@ -11,6 +11,7 @@ A curated list of IDA x64DBG and OllyDBG plugins. [IDA](https://www.hex-rays.com
 
 ## IDA Plugins
 
+* [Keypatch](http://keystone-engine.org/keypatch): Friendly assembly-level patching/searching plugin (using multi-arch assembler framework [Keystone engine](http://keystone-engine.org) inside). 
 * [Lazy ida](https://github.com/L4ys/LazyIDA): Add functionalities such as function return removing, converting data, scanning for string vulnerabilities. 
 * [IDAemu](https://github.com/36hours/idaemu): Use for emulating code in IDA Pro. It is based on unicorn-engine.
 * [IDA_EA](https://github.com/1111joe1111/ida_ea): A set of exploitation/reversing aids for IDA.
@@ -31,10 +32,16 @@ plugin.
 * [Yaco](https://github.com/DGA-MI-SSI/YaCo): Collaborative Reverse-Engineering for IDA.
 * [IDASignSrch](https://sourceforge.net/projects/idasignsrch/): It can recognize tons of compression, multimedia and encryption algorithms and many other things like known strings and anti-debugging code.
 * [Findcrypt2](http://www.hex-rays.com/idapro/freefiles/findcrypt.zip): It searches constants known to be associated with cryptographic algorithm in the code.
-* [Driver Buddy](https://github.com/nccgroup/DriverBuddy): It assist with the reverse engineering of Windows kernel drivers.
+* [Driver Buddy](https://github.com/nccgroup/DriverBuddy): It assists with the reverse engineering of Windows kernel drivers.
 * [Heap Viewer](https://github.com/danigargu/heap-viewer): Used to examine the glibc heap, focused on exploit development.
 * [IDAScope](https://bitbucket.org/daniel_plohmann/simplifire.idascope):  It consists of multiple tabs, containing functionality to achieve different goals such as fast identification of semantically interesting locations.
 * [HexRayPytools](https://github.com/igogo-x86/HexRaysPyTools): Assist in the creation of classes/structures and detection of virtual tables. 
+* [Ponce](https://github.com/illera88/Ponce): Symbolic Execution just one-click away!
+* [idenLib.py](https://github.com/secrary/IDA-scripts/tree/master/idenLib): [idenLib](https://github.com/secrary/idenLib) (Library Function Identification ) plugin for `IDA Pro`
+* [J.A.R.V.I.S](https://github.com/carlosgprado/JARVIS) A plugin for IDA Pro to assist you with the most common reversing tasks. It integrates with the (J.A.R.V.I.S) tracer.
+* [golang_loader_assist](https://github.com/strazzere/golang_loader_assist): Making GO reversing easier in IDA Pro
+* [FindYara](https://github.com/OALabs/FindYara): IDA python plugin to scan binary with yara rules.
+* [Karta](https://github.com/CheckPointSW/Karta): Source code assisted fast binary matching plugin for IDA
 
 ## x64dbg Plugins
 * [Checksec](https://github.com/klks/checksec): x64dbg plugin to check security settings.
@@ -50,6 +57,7 @@ plugin.
 * [ScyllaHide](https://github.com/x64dbg/ScyllaHide): https://github.com/x64dbg/ScyllaHide
 * [Highlightfish](https://github.com/Insid3CodeTeam/Highlightfish): Plugin to customize x64dbg.
 * [TitanHide](https://github.com/mrexodia/TitanHide): It is a driver intended to hide debuggers from certain processes.
+* [idenLibX](https://github.com/secrary/idenLibX): [idenLib](https://github.com/secrary/idenLib) (Library Function Identification ) plugin for `x32dbg`/`x64dbg`
 
 ## OllyDBG Plugins
 * [OllyDumpEx](https://tuts4you.com/download/3451/): This plugin is process memory dumper for OllyDbg.
